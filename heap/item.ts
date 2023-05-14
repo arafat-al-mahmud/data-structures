@@ -1,3 +1,4 @@
-export type Item<T> = {
+export interface Item<T> {
   value: T;
-};
+  [key: string]: any;
+}
